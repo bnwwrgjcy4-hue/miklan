@@ -591,7 +591,7 @@ async function startApp() {
         console.log(`Serwer gotowy do działania! Otwórz: http://localhost:${PORT}`);
     });
 
-    setInterval(backgroundFetch, 15000);
+    setInterval(backgroundFetch, 60000);
 }
 
 startApp();
